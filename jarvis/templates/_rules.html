@@ -1,0 +1,29 @@
+{% set indent = depth if depth is defined else 0 %}
+<div class="ms-{{ indent * 3 }}">
+  {% if rules.rules %}
+    <h5>{{ component }}</h5>
+    <ul class="list-group mb-3">
+      {% for item in rules.rules %}
+      <li class="list-group-item">
+        <input class="form-check-input me-1" type="checkbox" id="{{ component }}_{{ loop.index }}">
+        <label class="form-check-label" for="{{ component }}_{{ loop.index }}">{{ item }}</label>
+      </li>
+      {% endfor %}
+    </ul>
+    <button class="btn btn-secondary btn-sm mb-2" onclick="resetSection('{{ component }}')" type="button">Reset {{ component }}</button>
+  {% endif %}
+    {% for component, rules in rules.items() %}
+        {% if component != "rules" %}
+            {% with rules=rules, component=component, depth=indent + 1 %}
+                {% include "_rules.html" %}
+            {% endwith %}
+        {% endif %}
+    {% endfor %}
+</div>
+
+<script>
+function resetSection(prefix) {
+  const boxes = document.querySelectorAll(`input[id^='${prefix}_']`);
+  boxes.forEach(box => box.checked = false);
+}
+</script>

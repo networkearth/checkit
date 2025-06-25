@@ -1,0 +1,13 @@
+paragraph:
+  rules:
+    - does it capture a single idea?
+  components:
+    lead:
+      rules:
+        - does it capture the main point?
+        - is it easily digestible?
+    development:
+      rules:
+        - does it support the lead?
+        - are there citations?
+        - is it clarifying?
