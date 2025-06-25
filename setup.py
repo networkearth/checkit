@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="jarvis",
+    name="checkit",
     version="0.0.1",
     author="Marcel Gietzmann-Sanders",
     author_email="marcelsanders96@gmail.com",
-    packages=find_packages(include=["jarvis", "jarvis*"]),
+    packages=find_packages(include=["checkit", "checkit*"]),
     install_requires=[
         "flask==3.1.1",
         "flask_bootstrap==3.3.7.1",
@@ -13,7 +13,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "jarvis = jarvis.cli:cli",
+            "checkit = checkit.cli:cli",
         ]
     },
 )

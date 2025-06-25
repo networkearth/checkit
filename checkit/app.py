@@ -29,7 +29,6 @@ def create_app(rules_dir):
     def show_ruleset(ruleset):
         rules = app.config['RULES'][ruleset]
 
-        print(rules)
         return render_template(
             'ruleset.html', rulesets=sorted(app.config['RULES'].keys()),
             ruleset=ruleset, rules=rules

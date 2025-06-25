@@ -1,6 +1,6 @@
 import click
 
-from jarvis.app import create_app
+from checkit.app import create_app
 
 @click.group()
 def cli():

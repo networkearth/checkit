@@ -1,5 +1,5 @@
-# jarvis
+# checkit
 
 ```bash
-jarvis start --rules example/
+checkit start --rules example/
 ```
