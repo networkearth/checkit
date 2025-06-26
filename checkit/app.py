@@ -25,7 +25,7 @@ def create_app(rules_dir):
     app.config['RULES'] = load_rules(rules_dir)
     bootstrap.init_app(app)
 
-    @app.route('/<ruleset>', methods=['GET'])
+    @app.route('/rules/<ruleset>', methods=['GET'])
     def show_ruleset(ruleset):
         rules = app.config['RULES'][ruleset]
 
@@ -37,6 +37,6 @@ def create_app(rules_dir):
     @app.route('/', methods=['GET'])
     def home():
         first_ruleset = sorted(app.config['RULES'].keys())[0]
-        return redirect(url_for('show_ruleset', ruleset='Funnel'))
+        return redirect(url_for('show_ruleset', ruleset=first_ruleset))
 
     return app

@@ -1,0 +1,31 @@
+section:
+  rules:
+    - Is the section related to a single objective?
+    - Could you comprehensively address that objective in the discussion with the highlights chosen?
+    - Are those highlights derived only from the data? (no outside knowledge/interpretation)
+    - Are those highlights organized into a clear flow?
+  paragraph:
+    rules:
+      - Is the paragraph dealing with only one highlight?
+      - Is there an attendent figure or table?
+      - Have you listed the developments and are they comprehensive?
+      - Does it flow well from the proceeding paragraph?
+    lead:
+      rules:
+        - If someone were skimming the results would they get the highlight from this lead?
+        - Have you avoided any kind of interpretation or reference to outside knowledge?
+        - Do the words evoke the imagination or just leave people with numbers?
+        - Is it in past tense?
+        - Would a lay person understand it?
+        - Have you made it as concise as possible?
+        - Have you referenced the attendent figure or table?
+    development:
+      rules:
+        - Does this support just the lead?
+        - Is it in past tense?
+        - Have you avoided any kind of interpretation or reference to outside knowledge?
+        - Do the words evoke the imagination or just leave people with numbers?
+        - Would a lay person understand it?
+        - Have you made it as concise as possible?
+        - Are there specific numbers supporting every adverb or adjective you've used?
+        - Is the definition of every number made clear either here or in the methods?

@@ -1,0 +1,40 @@
+section:
+  rules:
+    - Is the section related to a single objective?
+    - Does every result for that objective relate back to something here?
+    - Are the steps comprehensive (replicable)?
+    - Are the steps organized in action order (not logical order)?
+    - Have you determined whether an overview will be necessary?
+  objective:
+    rules:
+      - Is there a clear statement of how the objective will be addressed? ("To meet X, we did Y.")
+      - Is it past tense?
+      - Are framing details included so the reader knows what Y entails?
+      - Is the reasoning ("because of Z") clearly woven in to justify the framing?
+      - By the end of this paragraph, is the plan clear even if the execution is not?
+  summary:
+    rules:
+      - Does the summary begin with a cue that this is an overview?
+      - Is it past tense?
+      - Are all key steps listed in chronological order?
+      - Is the summary concise and easy to refer back to?
+  step:
+    rules:
+      - Does each step follow L/D form?
+      - Are all the substeps present for replication?
+      - Is the reasoning behind each method ("why") included where needed?
+    lead:
+      rules:
+        - If someone were skimming the methods would they get the step from this lead?
+        - Is it past tense?
+        - Would a lay person understand it?
+        - Have you made it as concise as possible?
+    development:
+      rules:
+        - Does this provide a single substep?
+        - Is it past tense?
+        - Do details include everything necessary for replication?
+        - Would a lay person understand it?
+        - Have you made it as concise as possible?
+        - Are software, tools, or data sources precisely identified with version or access details?
+        - Are units, definitions, and thresholds consistent with the Results section?

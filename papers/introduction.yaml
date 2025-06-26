@@ -1,0 +1,49 @@
+goal:
+  rules:
+    - Is it solution independent?
+    - Is it singular?
+    - Have you thought of ways to make it applicable to a broader audience?
+    - Is it falsifiable or testable in some way?
+    - Would a lay person understand it?
+    - Have you made it as concise as possible?
+    - Is it divisible into clear objectives?
+  objective:
+    rules:
+      - Is it obvious how it relates to the goal?
+      - Is it singular?
+      - Would a lay person understand it?
+      - Have you made it as concise as possible?
+funnel:
+  rules:
+    - Does the funnel begin somewhere axiomatic to your readers?
+    - Does the funnel end at your goal?
+    - Does it leave no doubt that your goal is both important and novel?
+    - Does each step in the funnel follow naturally from the last?
+    - Have you ensured you haven't missed any steps?
+    - Is the argument as simple as possible? (without losing power)
+    - Are there any implicit assumptions that should be made explicit?
+  paragraph:
+    rules:
+      - Does this paragraph support one level of the funnel toward the goal?
+      - Have you captured the elaboration, evidence, and distinction required to make the step in the funnel clear?
+      - Does it flow naturally from the last paragraph? 
+      - Is all the detail necessary?
+      - Is it in L/D form?
+    lead:
+      rules:
+        - If someone were skimming the funnel would they get the step from this lead?
+        - Do the words evoke the imagination or just leave people with numbers?
+        - Would a lay person understand it?
+        - Have you made it as concise as possible?
+        - Are any needed citations present?
+        - Is the tone confident without being overstated?
+    development:
+      rules:
+        - Does this support just the lead?
+        - Do the words evoke the imagination or just leave people with numbers?
+        - Would a lay person understand it?
+        - Have you made it as concise as possible?
+        - Does it elaborate, provide evidence, or create a distinction?
+        - Are citations present?
+        - Have you ensured none of the results of this paper are bleeding in?
+
