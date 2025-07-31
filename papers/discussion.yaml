@@ -1,0 +1,43 @@
+section:
+  rules:
+    - This is where you sell the research and make people feel it was valuable they read your paper. 
+    - (Content) Do not reiterate the results. Relate it to other research or derive meaning/value. 
+    - (Content) Interpretation is what something means, not what it is.
+    - (Structure) Each objective should get its own section. That section should make it clear we won. 
+    - (Content) What are you excited about? 
+    - (Content) How have you helped confirm old hypotheses?
+    - (Content) How have you added detail?
+    - (Content) How have you created contrast? 
+    - (Structure) Start with a hook - you're selling something so let folks know what they stand to gain immediately.
+    - (Content) Capture the context that makes your hook/research sexy. 
+    - (Structure) Ensure you end with a conclusion that wraps up the hook.
+    - (Structure) Start broad and narrow - if people stop reading part way through maximize what they gained
+    - (Content) For each point do other species/contexts support it?
+    - (Content) For each point do other species/contexts contrast with it? (i.e. you've found new applications)
+    - (Content) For each point do other species/contexts suggest further investigation? 
+    - (Content) Everything in the results should show up somewhere in the discussion. 
+  paragraph:
+    rules:
+      - Is this dealing with a single idea?
+      - Is it in L/D form?
+      - Refer to the subjects of a study not the researchers whenever you can. 
+      - Do not reiterate the results. Relate it to other research or derive meaning/value. 
+      - Interpretation is what something means, not what it is.
+      - Use words like support or contrast rather than equivalent or different to create valent contrast.
+      - Use place, species, time of year to invoke the imagination in exciting ways. 
+    lead:
+      rules:
+        - If one were skimming through the discussion would the leads give you the overall story?
+        - Is this providing an interpretation, linking to past research, or giving a valuation? 
+        - Have you ensured its not just a restatement of results (i.e. has an interpretation or relation to literature)
+        - Does this engage the imagination or just state some abstract numbers/ideas
+        - Would it get someone intrigued or excited? 
+    development:
+      rules:
+        - Is this providing an interpretation, linking to past research, or giving a valuation? 
+        - Either way you'll need to link back to prior research. 
+        - Does it relate only to the lead in question?
+        - Have you made sure you're not just reiterating a result?
+        - Have you ensured everything you're drawing on is either in the literature or explicitly in the results?
+        - Does this evoke the imagination? 
+        - Would it get someone intrigued or excited? 

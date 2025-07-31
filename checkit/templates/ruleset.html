@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
   <h2>{{ ruleset }}</h2>
+  <b>Get feedback with each new level! Don't wait till the whole thing is written to find out your overall structure sucks!</b>
   <form method="post">
     {% for component, rules in rules.items() %}
       {% with rules=rules, component=component %}
